@@ -23,7 +23,13 @@ function ProductCard({ product, addToCart, onOpenProduct }) {
             <div className="price-label">Price</div>
             <span className="price">₹{product.price.toLocaleString('en-IN')}</span>
           </div>
-          <button type="button" onClick={() => addToCart(product)}>
+          <button
+            type="button"
+            onClick={(event) => {
+              event.stopPropagation()
+              addToCart(product)
+            }}
+          >
             <FiShoppingCart /> Add
           </button>
         </div>

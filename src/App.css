@@ -166,110 +166,6 @@ body {
   margin-top: 18px;
 }
 
-.feature-card {
-  margin-top: 18px;
-  padding: 24px;
-  border-radius: 24px;
-  background:
-    linear-gradient(135deg, rgba(255, 247, 237, 0.95), rgba(254, 243, 199, 0.9)),
-    url('https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=80') center/cover;
-  border: 1px solid #f3dcc1;
-  box-shadow: 0 12px 30px rgba(120, 53, 15, 0.08);
-}
-
-.feature-card-content {
-  max-width: 560px;
-}
-
-.feature-badge {
-  display: inline-block;
-  padding: 6px 10px;
-  border-radius: 999px;
-  background: #7c2d12;
-  color: white;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.feature-card h3 {
-  margin: 0 0 8px;
-  color: #2f1d0a;
-  font-size: 1.35rem;
-}
-
-.feature-card p {
-  margin: 0;
-  color: #5c4033;
-}
-
-.mini-showcase {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
-  margin-top: 18px;
-}
-
-.mini-card {
-  padding: 20px;
-  border-radius: 20px;
-  background: #fffdfa;
-  border: 1px solid #efe2d4;
-  box-shadow: 0 10px 24px rgba(120, 53, 15, 0.06);
-}
-
-.mini-card.large {
-  background: linear-gradient(135deg, #fff7ed, #fef3c7);
-}
-
-.mini-number {
-  display: inline-block;
-  margin-bottom: 8px;
-  font-size: 1.8rem;
-  font-weight: 800;
-  color: #7c2d12;
-}
-
-.mini-card h4 {
-  margin: 0 0 6px;
-  color: #2f1d0a;
-}
-
-.mini-card p {
-  margin: 0;
-  color: #6b4a2d;
-}
-
-.category-spotlight {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
-  margin-top: 18px;
-}
-
-.spotlight-card {
-  padding: 20px;
-  border-radius: 20px;
-  background: #fffdfa;
-  border: 1px solid #efe2d4;
-  box-shadow: 0 10px 24px rgba(120, 53, 15, 0.06);
-}
-
-.spotlight-card.accent {
-  background: linear-gradient(135deg, #7c2d12, #dc2626);
-  color: white;
-}
-
-.spotlight-card h4 {
-  margin: 0 0 6px;
-  color: inherit;
-}
-
-.spotlight-card p {
-  margin: 0;
-  color: inherit;
-  opacity: 0.9;
-}
-
 .shopping-cards {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -430,6 +326,7 @@ body {
   overflow: hidden;
   width: 100%;
   max-width: 360px;
+  cursor: pointer;
 }
 
 .product-image-wrap {

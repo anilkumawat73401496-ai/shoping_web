@@ -20,9 +20,10 @@ function Header({ cartCount, totalPrice, onOpenBeg }) {
       </nav>
 
       <div className="header-actions">
-        <button className="cart-pill" type="button">
+        <button className="cart-pill" type="button" onClick={onOpenBeg}>
           <FiShoppingBag />
           <span>{cartCount}</span>
+          {totalPrice > 0 ? <span>₹{totalPrice.toLocaleString('en-IN')}</span> : null}
         </button>
         <button className="pill-btn" type="button" onClick={onOpenBeg}>
           Beg

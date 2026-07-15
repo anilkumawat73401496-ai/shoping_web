@@ -419,7 +419,7 @@ body {
   justify-items: center;
 }
 
-..product-card {
+.product-card {
   display: flex;
   flex-direction: column;
   gap: 12px;
